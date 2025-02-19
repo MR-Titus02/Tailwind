@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- nav 2 -->
+    <div class="text-black border-2">
+        <nav class="flex">
+            <div class="flex space-x-10 mx-5 p-5" style="max-width: 50%;">
+                <img src="tailwindcss.svg " alt="icon of tailwind css" class="w-8">
+                <h3>Dashboard</h3>
+                <h3>Team</h3>
+                <h3>Projects</h3>
+                <h3>Calender</h3>
+            </div>
+            <div class="flex space-x-10 ml-auto p-5" style="max-width: 50%;">
+                <input type="text" placeholder="Search.." class="rounded-l border-2 border-gray-500">
+                <img src="bell.png" alt="bell icon" class="w-8">
+                <img src="profile.png" alt="profile-pic" class="w-8">
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <!-- login starts -->
+    <div>
+        <div class="grid justify-center mb-5">
+            <div class="flex justify-center m-20 space-x-3">
+                <img src="bell.png" alt="logo" class="w-8">
+                <h2 class="text-blue-600 text-3xl font-bold">Flowbite</h2>
+            </div>
+        </div>
+        <!-- login -->
+        <div class="grid justify-center shadow-xl p-10 " style="margin: auto 40%;">
+            <h3 class="font-bold text-3xl">Login</h3>
+            <label class="pt-5 pb-3">Your email</label>
+            <input type="email" placeholder="example@gmail.com"
+                class="placeholder-gray-400 border-2 border bg-gray-100"><br>
+            <label class="pb-3">Your Password</label>
+            <input type="password" class="placeholder-gray-400 border-2 bg-gray-100">
+            <div class="flex pt-5">
+                <input type="checkbox">
+                <label class="pl-2">Remember Me</label>
+            </div>
+            <button class="border bg-blue-500 rounded-md text-white">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
